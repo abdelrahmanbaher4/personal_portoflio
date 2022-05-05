@@ -49,6 +49,62 @@ header{
 }
 
 ```
+#### 2) Education 
+* made a shadow for the card 
+
+
+### Making the website responsive 
+* tried to make it for all kind of screens handling three main widths
+** less than 1023px , less than 641px , less than 300px
+```css
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center ;
+    }
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 0.8em;
+    }
+}
+@media (max-width:300px){
+    body{
+        /*1 em = 10px*/
+        font-size: 10px;
+    }
+    .main h2{
+        font-size: 0.8em;
+    }
+}
+
+
+
+```
+
 
 
 
