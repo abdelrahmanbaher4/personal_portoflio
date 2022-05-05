@@ -1,6 +1,6 @@
 # Personal Portoflio
 ## It is a simple portfolio website using HTML and CSS and hosted on github
-### It is for learning purpose but will keep improving it
+### It is for learning purposes but will keep improving it
 ### Some website features :-
 * Sementic HTML for SEO Purposes
 * Reusable clean code with meaningful class names as it used in more than a section in the website
