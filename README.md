@@ -8,7 +8,9 @@
 * Some animations when hovering over elements
 ## Website Link 
 * Here is the link for the website: https://abdelrahmanbaher4.github.io/personal_portoflio/
-
+## Website Demo :
+### Website Navigation
+![Alt Text](https://media.giphy.com/media/aInxCCl06erdi1y2I0/giphy.gif)
 
 
 
