@@ -3,6 +3,7 @@
 ### It is for learning purpose but will keep improving it
 ### Some website features :-
 * Sementic HTML for SEO Purposes
+* Reusable clean code with meaningful class names as it used in more than a section in the website
 * Responsive CSS to work on all screens
 * Used Google Poppins font
 * Some animations when hovering over elements
@@ -11,7 +12,25 @@
 ## Website Demo :
 ### Website Navigation :- 
 ![Alt Text](https://media.giphy.com/media/aInxCCl06erdi1y2I0/giphy.gif)
-#### 1) Header
+#### Body 
+* The font used in the website is 'Poppins' and is imported in the css file
+```css 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+```
+* also used for the scroll-behavior to be smooth for smooth scrolling
+```css
+body{
+    font-family: 'Poppins','sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*This makes scrolling behaviour smooth on the webpage*/
+    scroll-behavior: smooth;
+}
+
+```
+
+#### Header
 * made it fixed by setting value of position to fixed
 * gave z-index a high value to make it the only thing appearing while scrolling
 ```css
@@ -49,13 +68,30 @@ header{
 }
 
 ```
-#### 2) Education 
-* made a shadow for the card 
+#### Education,Projects & Contact Sections
+* made a shadow for the card and when hovering over it , it is scaled by 1.1 
+* made a border-radius for the card to be round from the edges 
+* used transition and gave it time of 500ms for transition and using of ease to be more smooth during the transition
+```css
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 500ms ease-in-out;
+}
+
+```
 
 
 ### Making the website responsive 
-* tried to make it for all kind of screens handling three main widths
-** less than 1023px , less than 641px , less than 300px
+#### tried to make it for all kind of screens handling three main widths
+* less than 1023px , less than 641px , less than 300px
 ```css
 
 @media (max-width:1023px){
